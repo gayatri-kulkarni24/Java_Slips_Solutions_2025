@@ -13,9 +13,9 @@
 			}
 		}
 		if(sum==n){
-			out.println("no is perfect");
+			out.println("Number is perfect");
 		}else{
-			out.println("no is not perfect");		
+			out.println("Number is not perfect");		
 		}
 	}
 %>
