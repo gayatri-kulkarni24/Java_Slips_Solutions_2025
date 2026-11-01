@@ -15,7 +15,7 @@ public class as4setA1 extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		PrintWriter out=resp.getWriter();
-		out.println("<h1>HTTP server info</h1>");
+		out.println("<h1>HTTP server Information</h1>");
 		out.println("IP address::"+ req.getLocalAddr());
 		out.println("Browser name::"+ req.getHeader("User-Agent"));
 		
